@@ -1,26 +1,31 @@
+.pageheader{
+  width: 100%;
+}
 .contact {
   display: flex;
-  background-color: #f5f5f5;
-  position: absolute;
+  background-color: #F5F5F5;
   width: 100%;
-  top: -10px;
-}
-.contact p {
-  padding-left: 20px;
-  padding-right: 50px;
-}
-.contact img {
-  padding-left: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0px;
 }
 .socials {
   flex: 1;
-  text-align: left;
-  padding-left: 50px;
+  align-items: left;
+  margin-left: 100px;
+  font-weight: bold;
+}
+.socials img{
+  padding-left: 10px;
 }
 .communication {
   flex: 2;
   text-align: right;
-  margin-right: 50px;
+  margin-right: 100px;
+}
+.communication img{
+  padding-left: 20px;
 }
 .navbar {
   width: 100%;
@@ -29,20 +34,23 @@
 }
 .navleft {
   flex: 1;
-  margin-left: 70px;
+  margin-left: 90px;
 }
 .navright {
   flex: 4;
   padding-top: 30px;
-  margin-right: 60px;
+  margin-right: 90px;
   text-align: right;
 }
 .navright a {
   color: black;
   text-decoration: none;
-  padding: 20px;
+  padding-left: 35px;
+  font-size: smaller;
+  font-weight: bold;
 }
-.content {
+
+/* .content {
   width: 100%;
 }
 .lovecare img {
@@ -148,33 +156,32 @@ input {
   width: 350px;
 }
 
-.whygg{
+.whygg {
   margin-top: 50px;
   margin-left: 90px;
-  background-color: #E8F9F6;
+  background-color: #e8f9f6;
   height: 500px;
   width: 90%;
   display: flex;
   position: relative;
   overflow: hidden;
 }
-.staffwithbg{
+.staffwithbg {
   flex: 2;
 }
-.whyggcontent{
+.whyggcontent {
   flex: 1;
   padding-top: 150px;
 }
-.whyggcontent ul{
+.whyggcontent ul {
   list-style-image: url(img/Group120check.png);
 }
 
-.staffwithbg img{
+.staffwithbg img {
   object-fit: contain;
   position: absolute;
   margin-block-end: auto;
 }
-
 
 .specialists {
   width: 100%;
@@ -222,7 +229,7 @@ input {
 .viewbutton {
   text-align: center;
 }
-.viewbutton button{
+.viewbutton button {
   height: 40px;
   width: 120px;
   border-radius: 0px;
@@ -296,14 +303,14 @@ input {
   width: 350px;
 }
 
-.subscribewithbg{
-  background-color: #EAF2FF;
+.subscribewithbg {
+  background-color: #eaf2ff;
   height: 600px;
   width: 100%;
   position: relative;
   margin-top: -250px;
 }
-.subscribebox{
+.subscribebox {
   height: 210px;
   width: 90%;
   overflow: hidden;
@@ -313,63 +320,63 @@ input {
   margin-top: 300px;
   margin-left: 70px;
 }
-.textwithbg{
+.textwithbg {
   flex: 1;
 }
-.textwithbg img{
+.textwithbg img {
   height: 210px;
   width: 120%;
 }
-.subscribetext{
+.subscribetext {
   position: relative;
   margin-top: -150px;
   margin-left: 70px;
 }
-.formarea{
+.formarea {
   flex: 1;
   margin-left: 200px;
   margin-top: 60px;
 }
-.formarea input{
+.formarea input {
   border: none;
 }
-.formarea button{
+.formarea button {
   height: 40px;
   width: 150px;
 }
-.formarea hr{
+.formarea hr {
   margin-top: -7px;
   margin-right: 145px;
 }
 
-.footertop{
+.footertop {
   display: flex;
 }
-.footertopleft{
+.footertopleft {
   flex: 1;
 }
-.footertopmiddle{
+.footertopmiddle {
   flex: 1;
 }
-.footertopright{
+.footertopright {
   flex: 1;
 }
-.grid{
+.grid {
   display: grid;
   grid-template-columns: auto auto;
 }
-.footerbottom{
+.footerbottom {
   display: flex;
 }
-.footerbottom1{
+.footerbottom1 {
   flex: 1;
 }
-.footerbottom2{
+.footerbottom2 {
   flex: 1;
 }
-.footerbottom3{
+.footerbottom3 {
   flex: 1;
 }
-.footerbottom4{
+.footerbottom4 {
   flex: 1;
-}
+} */
