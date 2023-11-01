@@ -168,7 +168,7 @@ input {
 .whyggcontent ul {
   list-style-image: url(img/Group120check.png);
 }
-.whyggcontent li{
+.whyggcontent li {
   margin-bottom: 20px;
 }
 
@@ -242,6 +242,10 @@ input {
   height: 250px;
   width: 425px;
 }
+.interest a{
+  color: #17C1A3;
+  text-decoration: none;
+}
 
 .bluebg {
   background-color: #eaf2ff;
@@ -295,14 +299,17 @@ input {
   margin-left: 10px;
 }
 
-/* .footertop {
+.pagefooter {
+  width: 88%;
+  margin-left: 80px;
+  padding: 20px;
+}
+.footertop {
   display: flex;
+  padding: 40px;
 }
 .footertopleft {
-  flex: 1;
-}
-.footertopmiddle {
-  flex: 1;
+  flex: 2;
 }
 .footertopright {
   flex: 1;
@@ -310,19 +317,24 @@ input {
 .grid {
   display: grid;
   grid-template-columns: auto auto;
+  row-gap: 30px;
 }
 .footerbottom {
   display: flex;
+  padding-top: 30px;
 }
-.footerbottom1 {
+.footerbottomitem {
   flex: 1;
+  text-align: center;
+  font-size: 14.8px;
 }
-.footerbottom2 {
-  flex: 1;
+.footerbottomitem a {
+  font-weight: bold;
 }
-.footerbottom3 {
-  flex: 1;
+.footerbottom img {
+  padding: 5px;
 }
-.footerbottom4 {
-  flex: 1;
-} */
+.credits {
+  text-align: center;
+  padding: 20px 0px;
+}
