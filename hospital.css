@@ -45,7 +45,7 @@
 .content {
   width: 100%;
 }
-.content img {
+.lovecare img {
   position: absolute;
   width: 90%;
   margin-left: 70px;
@@ -116,4 +116,36 @@ input {
   margin: 10px;
   height: 40px;
   width: 250px;
+}
+.ourdept{
+  width: 100%;
+  margin-top: 300px;
+  margin-left: 70px;
+}
+.ourdepthead{
+  width: 90%;
+}
+.deptinfo{
+  display: flex;
+}
+.hepato{
+  flex: 1;
+}
+.hepato img{
+  height: 250px;
+  width: 450px;
+}
+.onco{
+  flex: 1;
+}
+.onco img{
+  height: 250px;
+  width: 450px;
+}
+.ent{
+  flex: 1;
+}
+.ent img{
+  height: 250px;
+  width: 450px;
 }
