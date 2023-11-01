@@ -148,6 +148,34 @@ input {
   width: 350px;
 }
 
+.whygg{
+  margin-top: 50px;
+  margin-left: 90px;
+  background-color: #E8F9F6;
+  height: 500px;
+  width: 90%;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+.staffwithbg{
+  flex: 2;
+}
+.whyggcontent{
+  flex: 1;
+  padding-top: 150px;
+}
+.whyggcontent ul{
+  list-style-image: url(img/Group120check.png);
+}
+
+.staffwithbg img{
+  object-fit: contain;
+  position: absolute;
+  margin-block-end: auto;
+}
+
+
 .specialists {
   width: 100%;
   margin-top: 300px;
@@ -190,6 +218,14 @@ input {
 .specialist4 img {
   height: 250px;
   width: 350px;
+}
+.viewbutton {
+  text-align: center;
+}
+.viewbutton button{
+  height: 40px;
+  width: 120px;
+  border-radius: 0px;
 }
 
 .facility {
