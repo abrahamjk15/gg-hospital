@@ -341,3 +341,35 @@ input {
   margin-top: -7px;
   margin-right: 145px;
 }
+
+.footertop{
+  display: flex;
+}
+.footertopleft{
+  flex: 1;
+}
+.footertopmiddle{
+  flex: 1;
+}
+.footertopright{
+  flex: 1;
+}
+.grid{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.footerbottom{
+  display: flex;
+}
+.footerbottom1{
+  flex: 1;
+}
+.footerbottom2{
+  flex: 1;
+}
+.footerbottom3{
+  flex: 1;
+}
+.footerbottom4{
+  flex: 1;
+}
