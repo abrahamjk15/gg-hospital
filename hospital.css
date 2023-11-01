@@ -118,98 +118,142 @@ input {
   width: 250px;
 }
 
-.ourdept{
+.ourdept {
   width: 100%;
   margin-top: 300px;
   margin-left: 70px;
 }
-.deptinfo{
+.deptinfo {
   display: flex;
 }
-.hepato{
+.hepato {
   flex: 1;
 }
-.hepato img{
+.hepato img {
   height: 250px;
   width: 350px;
 }
-.onco{
+.onco {
   flex: 1;
 }
-.onco img{
+.onco img {
   height: 250px;
   width: 350px;
 }
-.ent{
+.ent {
   flex: 1;
 }
-.ent img{
+.ent img {
   height: 250px;
   width: 350px;
 }
 
-.facility{
+.specialists {
   width: 100%;
   margin-top: 300px;
   margin-left: 70px;
 }
-.facilityhead{
+.specialisthead {
   text-align: center;
 }
-.facilityimages{
+.specialist {
   display: flex;
 }
-.facilityimage1{
+.specialist1 {
   flex: 1;
+  text-align: center;
 }
-.facilityimage1 img{
+.specialist1 img {
   height: 250px;
   width: 350px;
 }
-.facilityimage2{
+.specialist2 {
   flex: 1;
+  text-align: center;
 }
-.facilityimage2 img{
+.specialist2 img {
   height: 250px;
   width: 350px;
 }
-.facilityimage3{
+.specialist3 {
   flex: 1;
+  text-align: center;
 }
-.facilityimage3 img{
+.specialist3 img {
+  height: 250px;
+  width: 350px;
+}
+.specialist4 {
+  flex: 1;
+  text-align: center;
+}
+.specialist4 img {
   height: 250px;
   width: 350px;
 }
 
-.interest{
+.facility {
   width: 100%;
   margin-top: 300px;
   margin-left: 70px;
 }
-.interesthead{
+.facilityhead {
   text-align: center;
 }
-.interestinfo{
+.facilityimages {
   display: flex;
 }
-.eye{
+.facilityimage1 {
   flex: 1;
 }
-.eye img{
+.facilityimage1 img {
   height: 250px;
   width: 350px;
 }
-.mask{
+.facilityimage2 {
   flex: 1;
 }
-.mask img{
+.facilityimage2 img {
   height: 250px;
   width: 350px;
 }
-.baby{
+.facilityimage3 {
   flex: 1;
 }
-.baby img{
+.facilityimage3 img {
+  height: 250px;
+  width: 350px;
+}
+
+.interest {
+  width: 100%;
+  margin-top: 300px;
+  margin-left: 70px;
+}
+.interesthead {
+  text-align: center;
+}
+.interestinfo {
+  display: flex;
+}
+.eye {
+  flex: 1;
+}
+.eye img {
+  height: 250px;
+  width: 350px;
+}
+.mask {
+  flex: 1;
+}
+.mask img {
+  height: 250px;
+  width: 350px;
+}
+.baby {
+  flex: 1;
+}
+.baby img {
   height: 250px;
   width: 350px;
 }
