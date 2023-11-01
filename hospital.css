@@ -104,7 +104,7 @@ button {
   border-radius: 12px;
   padding: 15px;
 }
-.infohead{
+.infohead {
   margin-left: 10px;
 }
 .formsection {
@@ -127,41 +127,28 @@ input {
 }
 
 .ourdept {
-  width: 100%;
-  margin-top: 300px;
-  margin-left: 70px;
+  width: 88%;
+  margin-top: 200px;
+  margin-left: 90px;
 }
 .deptinfo {
   display: flex;
 }
-.hepato {
+.dept {
   flex: 1;
+  padding: 10px;
 }
-.hepato img {
+.dept img {
   height: 250px;
-  width: 350px;
-}
-.onco {
-  flex: 1;
-}
-.onco img {
-  height: 250px;
-  width: 350px;
-}
-.ent {
-  flex: 1;
-}
-.ent img {
-  height: 250px;
-  width: 350px;
+  width: 425px;
 }
 
-.whygg {
+/* .whygg {
   margin-top: 50px;
   margin-left: 90px;
   background-color: #e8f9f6;
   height: 500px;
-  width: 90%;
+  width: 88%;
   display: flex;
   position: relative;
   overflow: hidden;
@@ -181,50 +168,27 @@ input {
   object-fit: contain;
   position: absolute;
   margin-block-end: auto;
-}
+} */
 
-.specialists {
-  width: 100%;
-  margin-top: 300px;
-  margin-left: 70px;
+.specialistpane {
+  width: 88%;
+  margin-top: 200px;
+  margin-left: 90px;
 }
 .specialisthead {
   text-align: center;
 }
-.specialist {
+.specialists {
   display: flex;
 }
-.specialist1 {
+.specialist {
   flex: 1;
   text-align: center;
+  padding: 10px;
 }
-.specialist1 img {
-  height: 250px;
-  width: 350px;
-}
-.specialist2 {
-  flex: 1;
-  text-align: center;
-}
-.specialist2 img {
-  height: 250px;
-  width: 350px;
-}
-.specialist3 {
-  flex: 1;
-  text-align: center;
-}
-.specialist3 img {
-  height: 250px;
-  width: 350px;
-}
-.specialist4 {
-  flex: 1;
-  text-align: center;
-}
-.specialist4 img {
-  height: 250px;
-  width: 350px;
+.specialist img {
+  height: auto;
+  width: 310px;
 }
 .viewbutton {
   text-align: center;
@@ -236,9 +200,9 @@ input {
 }
 
 .facility {
-  width: 100%;
-  margin-top: 300px;
-  margin-left: 70px;
+  width: 88%;
+  margin-top: 200px;
+  margin-left: 90px;
 }
 .facilityhead {
   text-align: center;
@@ -246,34 +210,19 @@ input {
 .facilityimages {
   display: flex;
 }
-.facilityimage1 {
+.facilityimage {
   flex: 1;
+  padding: 10px;
 }
-.facilityimage1 img {
+.facilityimage img {
   height: 250px;
-  width: 350px;
-}
-.facilityimage2 {
-  flex: 1;
-}
-.facilityimage2 img {
-  height: 250px;
-  width: 350px;
-}
-.facilityimage3 {
-  flex: 1;
-}
-.facilityimage3 img {
-  height: 250px;
-  width: 350px;
+  width: 425px;
 }
 
-.interest {
-  width: 100%;
-  margin-top: 300px;
-  margin-left: 70px;
-  z-index: 1;
-  position: relative;
+.interestspane {
+  width: 88%;
+  margin-top: 200px;
+  margin-left: 90px;
 }
 .interesthead {
   text-align: center;
@@ -281,29 +230,16 @@ input {
 .interestinfo {
   display: flex;
 }
-.eye {
+.interest {
   flex: 1;
+  padding: 10px;
 }
-.eye img {
+.interest img {
   height: 250px;
-  width: 350px;
-}
-.mask {
-  flex: 1;
-}
-.mask img {
-  height: 250px;
-  width: 350px;
-}
-.baby {
-  flex: 1;
-}
-.baby img {
-  height: 250px;
-  width: 350px;
+  width: 425px;
 }
 
-.subscribewithbg {
+/* .subscribewithbg {
   background-color: #eaf2ff;
   height: 600px;
   width: 100%;
@@ -379,4 +315,4 @@ input {
 }
 .footerbottom4 {
   flex: 1;
-}
+} */
