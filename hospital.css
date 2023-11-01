@@ -265,6 +265,8 @@ input {
   width: 100%;
   margin-top: 300px;
   margin-left: 70px;
+  z-index: 1;
+  position: relative;
 }
 .interesthead {
   text-align: center;
@@ -292,4 +294,50 @@ input {
 .baby img {
   height: 250px;
   width: 350px;
+}
+
+.subscribewithbg{
+  background-color: #EAF2FF;
+  height: 600px;
+  width: 100%;
+  position: relative;
+  margin-top: -250px;
+}
+.subscribebox{
+  height: 210px;
+  width: 90%;
+  overflow: hidden;
+  background-color: white;
+  display: flex;
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 70px;
+}
+.textwithbg{
+  flex: 1;
+}
+.textwithbg img{
+  height: 210px;
+  width: 120%;
+}
+.subscribetext{
+  position: relative;
+  margin-top: -150px;
+  margin-left: 70px;
+}
+.formarea{
+  flex: 1;
+  margin-left: 200px;
+  margin-top: 60px;
+}
+.formarea input{
+  border: none;
+}
+.formarea button{
+  height: 40px;
+  width: 150px;
+}
+.formarea hr{
+  margin-top: -7px;
+  margin-right: 145px;
 }
