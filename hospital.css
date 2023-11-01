@@ -180,3 +180,36 @@ input {
   height: 250px;
   width: 350px;
 }
+
+.interest{
+  width: 100%;
+  margin-top: 300px;
+  margin-left: 70px;
+}
+.interesthead{
+  text-align: center;
+}
+.interestinfo{
+  display: flex;
+}
+.eye{
+  flex: 1;
+}
+.eye img{
+  height: 250px;
+  width: 350px;
+}
+.mask{
+  flex: 1;
+}
+.mask img{
+  height: 250px;
+  width: 350px;
+}
+.baby{
+  flex: 1;
+}
+.baby img{
+  height: 250px;
+  width: 350px;
+}
