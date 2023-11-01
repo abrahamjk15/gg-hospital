@@ -117,13 +117,11 @@ input {
   height: 40px;
   width: 250px;
 }
+
 .ourdept{
   width: 100%;
   margin-top: 300px;
   margin-left: 70px;
-}
-.ourdepthead{
-  width: 90%;
 }
 .deptinfo{
   display: flex;
@@ -133,19 +131,52 @@ input {
 }
 .hepato img{
   height: 250px;
-  width: 450px;
+  width: 350px;
 }
 .onco{
   flex: 1;
 }
 .onco img{
   height: 250px;
-  width: 450px;
+  width: 350px;
 }
 .ent{
   flex: 1;
 }
 .ent img{
   height: 250px;
-  width: 450px;
+  width: 350px;
+}
+
+.facility{
+  width: 100%;
+  margin-top: 300px;
+  margin-left: 70px;
+}
+.facilityhead{
+  text-align: center;
+}
+.facilityimages{
+  display: flex;
+}
+.facilityimage1{
+  flex: 1;
+}
+.facilityimage1 img{
+  height: 250px;
+  width: 350px;
+}
+.facilityimage2{
+  flex: 1;
+}
+.facilityimage2 img{
+  height: 250px;
+  width: 350px;
+}
+.facilityimage3{
+  flex: 1;
+}
+.facilityimage3 img{
+  height: 250px;
+  width: 350px;
 }
